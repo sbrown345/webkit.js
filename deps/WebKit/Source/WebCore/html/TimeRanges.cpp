@@ -1,3 +1,6 @@
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wabsolute-value"
+
 /*
  * Copyright (C) 2007, 2009, 2010 Apple Inc.  All rights reserved.
  *

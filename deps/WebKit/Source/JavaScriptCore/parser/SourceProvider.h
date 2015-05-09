@@ -1,3 +1,5 @@
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundefined-bool-conversion"
 /*
  * Copyright (C) 2008, 2009, 2012, 2013 Apple Inc. All rights reserved.
  *
