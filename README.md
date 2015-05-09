@@ -1,3 +1,6 @@
+This fork has some changes/hacks to get it to build on OSX, I have a feeling there are better ways to get it working :)
+
+
 webkit.js
 =========
 
