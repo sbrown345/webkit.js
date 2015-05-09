@@ -64,7 +64,7 @@ git clone https://github.com/trevorlinton/webkit.js webkitjs ; cd webkitjs
 ```
 * Run the setup script to grab all of the dependencies and tools.
 ```
-./setup.sh
+source ./setup.sh
 ```
 * Run the configuration script to generate build and project files.
 ```
