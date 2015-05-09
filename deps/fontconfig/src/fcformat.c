@@ -1,3 +1,6 @@
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wnon-literal-null-conversion"
+
 /*
  * Copyright © 2008,2009 Red Hat, Inc.
  *
