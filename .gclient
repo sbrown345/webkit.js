@@ -1,8 +1,8 @@
 solutions = [
   { "name"        : ".",
-    "url"         : "https://github.com/trevorlinton/webkit.js.git",
+    "url"         : "https://github.com/trevorlinton/webkit.js",
     "deps_file"   : ".DEPS.git",
-    "managed"     : True,
+    "managed"     : False,
     "custom_deps" : {
     },
     "safesync_url": "",
