@@ -1,6 +1,5 @@
 This fork has some changes/hacks to get it to build on OSX, I have a feeling there are better ways to get it working :)
 
-* Clone the repo to your local drive.
 ```
 git clone https://github.com/sbrown345/webkit.js webkitjs ; cd webkitjs
 source ./setup.sh
