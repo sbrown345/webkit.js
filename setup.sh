@@ -216,7 +216,7 @@ includedir=\${prefix}/include
 Name: egl
 Description: EGL library
 Version: 1.0.0
-
+§
 Requires:
 Libs: -L\${libdir} -L$\{sharedlibdir}
 Cflags: -I\${includedir}
@@ -259,10 +259,17 @@ Cflags: -I${includedir}
 EOF
 fi
 
+
+#if [ "$EMSCRIPTEN" == "" ]; then
+#	echo "Emscripten not installed
+#	exit 1;
+#fi
+
 echo "gclient stuff"
 gclient sync
 
 echo "build curl from gclient"
+source `pwd`/install-tools/emsdk_portable/emsdk_env.sh
 cd deps/curl
 ./buildconf
 emconfigure ./configure --without-ssl
