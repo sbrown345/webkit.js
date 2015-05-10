@@ -263,6 +263,7 @@ echo "gclient stuff"
 gclient sync
 
 echo "build curl from gclient"
+cd deps/curl
 ./buildconf
 emconfigure ./configure --without-ssl
 emmake make
