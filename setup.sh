@@ -259,13 +259,10 @@ Cflags: -I${includedir}
 EOF
 fi
 
-echo "gclient"
+echo "gclient stuff"
 gclient sync
 
-echo "gclient curl"
-# quick hack here to save having to check fork another repo - no idea if this breaks anything but it compiles after
-sed -ie 's|sizeof(t) == s ? 1 : -1|sizeof(t) == s ? 1 : 0|' deps/curl/include/curl/curlrules.h
-cd deps/curl
+echo "build curl from gclient"
 ./buildconf
 emconfigure ./configure --without-ssl
 emmake make
