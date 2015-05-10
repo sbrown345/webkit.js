@@ -7,7 +7,7 @@ vars = {
     'google_url':
 	'https://chromium.googlesource.com/chromium',
     'webkit_url':
-         'https://github.com/trevorlinton/webkit.js.git',
+         'https://github.com/trevorlinton/webkit.js',
     'git_url':
          'https://github.com',
     'libxml_url':
@@ -22,7 +22,7 @@ deps = {
     'deps/libjpeg_turbo':'https://github.com/trevorlinton/libjpeg-turbo.git',
     'deps/skia':'https://github.com/trevorlinton/skia.git',
     'deps/libxml2':'https://github.com/trevorlinton/libxml2.git',
-    'deps/curl':'https://github.com/trevorlinton/curl.git',
+    'deps/curl':'https://github.com/sbrown345/curl.git',
     'tools/deps2git':Var('google_url') + '/tools/deps2git.git',
 }
 

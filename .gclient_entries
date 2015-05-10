@@ -1,6 +1,6 @@
 entries = {
-  '.': 'https://github.com/trevorlinton/webkit.js',
-  'deps/curl': 'https://github.com/trevorlinton/curl.git',
+  '.': 'https://github.com/sbrown345/webkit.js',
+  'deps/curl': 'https://github.com/sbrown345/curl.git',
   'deps/ffmpeg': 'https://github.com/trevorlinton/FFmpeg.git',
   'deps/icu': 'https://github.com/trevorlinton/icu4c.git',
   'deps/libjpeg_turbo': 'https://github.com/trevorlinton/libjpeg-turbo.git',
