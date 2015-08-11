@@ -104,7 +104,6 @@
 			'<(DEPTH)/src/WebCoreSupport/Stubs/HTMLPluginElement.cpp',
 			'<(DEPTH)/src/WebCoreSupport/GraphicsLayerCairo.cpp',
 			'<(DEPTH)/src/WebCoreSupport/GraphicsLayerCairo.h',
-			'<(DEPTH)/src/EmscriptenSupport.cpp',
 		],
 		'sources/':[ ['exclude','<(webcore_excludes)'] ],
 		'include_dirs':['<@(webcore_includes)','<(DEPTH)/src/',],
